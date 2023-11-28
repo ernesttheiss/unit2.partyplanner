@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang ='en'>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Party Planner</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="partyplanner.css">
+    </head>
+    <body>
+        <div id="party-list">
+            <!--The Party details will be dynamiclly added here-->
+        </div>
+        <form id="party-form">
+            <label for="party-name">Party Name:</label>
+            <input type="text" id="party-name" required>
+
+            <label for="party-date">Date:</label>
+            <input type="date" id="party-date" required>
+
+            <label for="party-time">Time:</label>
+            <input type="time" id="party-time" required>
+
+            <label for="party-location">Location:</label>
+            <input type="text" id="party-location" required>
+
+            <label for="party-description">Description</label>
+            <textarea id="party-description" required></textarea>
+
+            <buton type="submit">Add</buton>
+        </form>
+
+        
+        
+    </body>
+    <script src="partyplanner.js" defer></script>
+</html>
